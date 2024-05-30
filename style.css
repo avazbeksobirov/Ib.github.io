@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    opacity: .5;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(bg.jpg);
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #0b8eda, -10px 10px 20px #0b8eda
+    ,-40px 0px 70px #0b8eda,-10px -10px 20px #0b8eda,40px 0px 70px #0b8eda;
+    height: 400px;
+    background-repeat: no-repeat;
+    transition: .6s ease-in-out;
+}
+
+.container:hover{
+    opacity: 10;
+
+}
+
+
+.content button{
+    margin-top: 150px;
+    margin-left: 200px;
+    padding: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 100px;
+    background-color: #0b8eda;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+    
+    
+}
+
+.content button:hover{
+    
+    box-shadow: 10px 10px 20px #0b8eda, -10px 10px 20px #0b8eda
+    ,-40px 0px 70px #0b8eda,-10px -10px 20px #0b8eda,40px 0px 70px #0b8eda;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+
+}
+
+h1 span{
+    color: red;
+}
